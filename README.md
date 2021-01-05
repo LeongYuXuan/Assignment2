@@ -1,5 +1,5 @@
 # Assignment-2
-##Repository for Assignment 2 for Interactive Devlopment
+## Repository for Assignment 2 for Interactive Devlopment
 Github Page Link: (Insert link here)
 ## Project Name: 
 Webpage based "app" utilising API to determine MRT route
@@ -16,11 +16,9 @@ Despite the decision to purposefully choose what seemed like an "easier" topic a
 (NIL)
 
 ## Tech Used
-HTML Boilerplate (Visual Studio)
-
-Bootstrap Templates?
-
-Some API (May have to be self generated...)
+*HTML Boilerplate (Visual Studio)
+*Bootstrap Templates?
+*Some API (May have to be self generated...)
 
 ## Test Runs
 
