@@ -16,14 +16,12 @@ The users of the web app would most likely be tourists (most unfamiliar with MRT
 
 > As a tourist, I would like any unfamilar terms to be explained to me, so I can better understand the system
 
-## TBA Features
-- [ ] Generate a path based on the user's input
+## Features (Added ones are marked)
+- [x] Generate a path based on the user's input
 - [ ] Indicate what interchanges to use if needed
 - [ ] State the line(s) the Station is on
 - [ ] Store previous paths in localstorage for future use?
 
-## Added Features
-(NIL)
 
 ## Tech Used
 * HTML Boilerplate (Visual Studio)
