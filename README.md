@@ -1,7 +1,8 @@
 # Assignment-2
-Repository for Assignment 2 for Interactive Devlopment
+##Repository for Assignment 2 for Interactive Devlopment
 Github Page Link: (Insert link here)
-Project Name: Webpage based "app" utilising API to determine MRT route
+## Project Name: 
+Webpage based "app" utilising API to determine MRT route
 This web app is meant to help people route their journey through Singapore's Mass Rapid Transit/Metro Rail Transit (MRT). Users choose a starting station and an ending station and the website would generate a route that the user would follow.
 
 ## Design Proccess
