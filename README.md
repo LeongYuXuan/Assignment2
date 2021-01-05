@@ -16,18 +16,21 @@ The users of the web app would most likely be tourists (most unfamiliar with MRT
 
 > As a tourist, I would like any unfamilar terms to be explained to me, so I can better understand the system
 
-## Features (Added ones are marked)
-- [x] Generate a path based on the user's input
+## Features (Added ones are ticked)
+- [ ] Generate a path based on the user's input
 - [ ] Indicate what interchanges to use if needed
 - [ ] State the line(s) the Station is on
 - [ ] Store previous paths in localstorage for future use?
-
+- [ ] A section, dedicated to explaining some terms (EW/Red Line, Interchanges etc.)
 
 ## Tech Used
-* HTML Boilerplate (Visual Studio)
+* HTML Boilerplate (Visual Studio) https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate
 * Bootstrap Templates?
 * Some API (May have to be self generated...)
+* W3C HTML validator https://validator.w3.org/
+* W3C CSS "Jigsaw" validator https://jigsaw.w3.org/css-validator/
 
 ## Test Runs
-
+TBA
 ## Credits
+TBA
