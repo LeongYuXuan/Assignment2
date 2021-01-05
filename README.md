@@ -16,9 +16,9 @@ Despite the decision to purposefully choose what seemed like an "easier" topic a
 (NIL)
 
 ## Tech Used
-*HTML Boilerplate (Visual Studio)
-*Bootstrap Templates?
-*Some API (May have to be self generated...)
+* HTML Boilerplate (Visual Studio)
+* Bootstrap Templates?
+* Some API (May have to be self generated...)
 
 ## Test Runs
 
