@@ -13,6 +13,7 @@ That leads me to creating the database myself (as suggested by my lecturer), but
 
 The users of the web app would most likely be tourists (most unfamiliar with MRT), thus the web app should be clear and explain any terms that the users may not understand.
 > As a tourist, I would like to be able to plot out a MRT route, so traversing via MRT would be easier
+
 > As a tourist, I would like any unfamilar terms to be explained to me, so I can better understand the system
 
 ## TBA Features
