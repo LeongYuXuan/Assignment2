@@ -12,12 +12,10 @@ After discovering the previous topic (MRT Routing) would be too difficult, I dec
 My planned workflow would be **HTML BASE --> JAVASCRPT --> BUG TESTING**
 
 ## Features (Added ones are ticked)
-- [ ] Generate a path based on the user's input
-- [ ] Indicate what interchanges to use if needed
-- [ ] State the line(s) the Station is on
-- [ ] Store previous paths in localstorage for future use?
-- [ ] A section, dedicated to explaining some terms (EW/Red Line, Interchanges etc.)
-
+- [ ] Display Japanese Name of Anime
+- [ ] Display English Name of Anime
+- [ ] Display Episode where image originated from
+- [x] Hmm...
 ## Tech Used
 * HTML Boilerplate (Visual Studio) https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate
 * Bootstrap Templates?
@@ -26,9 +24,16 @@ My planned workflow would be **HTML BASE --> JAVASCRPT --> BUG TESTING**
 * W3C CSS "Jigsaw" validator https://jigsaw.w3.org/css-validator/
 
 ## Test Runs
-### Postman  API test
+### General API test via Postman
 Actions: Send a request through Postman to see what result it returns
 
-Observation: Due to how postman works, I can only search up anime through Image URL. Took some getting used to, but the API gave a proper response. Test Image is an image from a a relatively obsure anime "Macross Delta". Returned proper result along with the episold number, surprisingly. API returns corresponding error message if the link is broken or too long. I assume that if the image is too big (>10MB), it would return an error message too. 
+Observation: Due to how postman works, I can only search up anime through Image URL. Took some getting used to, but the API gave a proper response. Test Image is an image from a a relatively obsure anime "Macross Delta". Returned proper result along with the episode number, surprisingly. API returns corresponding error message if the link is broken or too long. I assume that if the image is too big (>10MB), it would return an error message too. 
+
+### Unknown Image API test via Postman
+Action: Send a request, containing an non-anime image/fanart.
+
+Hypothesis: Returns an error message along the lines of "unknown Image"
+
+Observations: Sending image URL of an apple still gave a result, strangely enough. Fittingly, the first result it gave was "food wars" for the english title. Sending the image url for fanart of "Lelouch vi Brittania" also gave results, but the anime the API guessed was 'Skip Beat", when the actual answer is "Code Geass". I wonder if there is a way to prevent users from doing that. Perhaps I could even tease people on purpose to send random images to see what the API would spit out...
 ## Credits
 TBA
