@@ -8,8 +8,12 @@ This web app is meant for fun, but could be used to help people determine the ~s
 ## Design Process
 ### Initial Thoughts
 After discovering the previous topic (MRT Routing) would be too difficult, I decided to look into the APIs listed in the Assignment 2 document when an API caught my attention. The webpage would be bare at first with no CSS so I can focus on having the functions work properly.
+The finished website would be simple. Nothing flashy with light colours.
 
-My planned workflow would be **HTML BASE --> JAVASCRPT --> BUG TESTING**
+> As a person wanting to watch some anime, I would like to upload an image of a scene, so I can find the anime the image came from
+
+
+
 
 ## Features (Added ones are ticked)
 - [ ] Display Japanese Name of Anime
@@ -34,6 +38,15 @@ Action: Send a request, containing an non-anime image/fanart.
 
 Hypothesis: Returns an error message along the lines of "unknown Image"
 
-Observations: Sending image URL of an apple still gave a result, strangely enough. Fittingly, the first result it gave was "food wars" for the english title. Sending the image url for fanart of "Lelouch vi Brittania" also gave results, but the anime the API guessed was 'Skip Beat", when the actual answer is "Code Geass". I wonder if there is a way to prevent users from doing that. Perhaps I could even tease people on purpose to send random images to see what the API would spit out...
+Observations: Sending image URL of an apple still gave a result, strangely enough. Fittingly, the first result it gave was "food wars" for the english title. Sending the image url for fanart of "Lelouch vi Brittania" also gave results, but the anime the API guessed was 'Skip Beat", when the actual answer is "Code Geass". I wonder if there is a way to prevent users from doing that. 
+
+Conclusion: Perhaps I could  tease people on purpose to send random images to see what the API would spit out...
+
+### Random Image API test via Postman
+Action, Send a request containing a variety of anime images.
+
+Observation: Concerningly, if the image of the episode has been edited slightly(e.g cropped), the API has issues recognising it and spits out random results. I sent an image URL of a frame near the climax of "Macross Zero" but none of the results were correct. The URL length limit is making testing rather difficult as well.
+
+Conclusion: I would have to make a bare minimum physical website ASAP, as size limits are more lenient compared to URL length Limits. I should also provide a warning for people that 
 ## Credits
 TBA
