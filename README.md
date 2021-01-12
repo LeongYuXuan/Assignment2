@@ -48,5 +48,8 @@ Action, Send a request containing a variety of anime images.
 Observation: Concerningly, if the image of the episode has been edited slightly(e.g cropped), the API has issues recognising it and spits out random results. I sent an image URL of a frame near the climax of "Macross Zero" but none of the results were correct. The URL length limit is making testing rather difficult as well.
 
 Conclusion: I would have to make a bare minimum physical website ASAP, as size limits are more lenient compared to URL length Limits. I should also provide a warning for people that 
+
+### Oberservations made
+Turns out, I do not need to clone another repository for edits. Pretty cool.
 ## Credits
 TBA
