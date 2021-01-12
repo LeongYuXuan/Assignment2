@@ -9,5 +9,6 @@ $("#submit").click(function(event){
 $('aniScreen').on("click",function(){
     let img = $('#aniScreen').value();
     console.log(img)
+    //Redp
 
 })
