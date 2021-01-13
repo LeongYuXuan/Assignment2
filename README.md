@@ -22,8 +22,7 @@ The finished website would be simple. Nothing flashy with light colours.
 - [x] Hmm...
 ## Tech Used
 * HTML Boilerplate (Visual Studio) https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate
-* Bootstrap Templates?
-* trace.moe API (concerning name for an API)
+* trace.moe API (concerning name for an API) https://soruly.github.io/trace.moe/#/
 * W3C HTML validator https://validator.w3.org/
 * W3C CSS "Jigsaw" validator https://jigsaw.w3.org/css-validator/
 
@@ -43,13 +42,23 @@ Observations: Sending image URL of an apple still gave a result, strangely enoug
 Conclusion: Perhaps I could  tease people on purpose to send random images to see what the API would spit out...
 
 ### Random Image API test via Postman
-Action, Send a request containing a variety of anime images.
+Action: Send a request containing a variety of anime images.
 
 Observation: Concerningly, if the image of the episode has been edited slightly(e.g cropped), the API has issues recognising it and spits out random results. I sent an image URL of a frame near the climax of "Macross Zero" but none of the results were correct. The URL length limit is making testing rather difficult as well.
 
 Conclusion: I would have to make a bare minimum physical website ASAP, as size limits are more lenient compared to URL length Limits. I should also provide a warning for people that 
 
-### Oberservations made
+### Observations made
 Turns out, I do not need to clone another repository for edits. Pretty cool.
+
+### Unfortunate discovery
+trace.moe does not directly accept file uploads, so I was advised to use an api for images. Upload the images to there and get the image url to put into trace.moe. I am afraid I would not have the time.
+
+### Leap of faith js request to Imgur
+Action: Send a request to post an image using the example code from this site: https://apidocs.imgur.com/#c85c9dfc-7487-4de2-9ecd-66f727cf3139
+
+Observation: 403 error. Likey a authorization process I have missed.
+
+Conclusion: I am done for.
 ## Credits
-TBA
+Chunk of code from leap of faith: https://apidocs.imgur.com/#c85c9dfc-7487-4de2-9ecd-66f727cf3139
