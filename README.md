@@ -25,7 +25,7 @@ The finished website would be simple. Nothing flashy with light colours.
 * trace.moe API (concerning name for an API) https://soruly.github.io/trace.moe/#/
 * W3C HTML validator https://validator.w3.org/
 * W3C CSS "Jigsaw" validator https://jigsaw.w3.org/css-validator/
-
+* jshint JS linter(?) https://jshint.com/
 ## Test Runs
 ### General API test via Postman
 Actions: Send a request through Postman to see what result it returns
@@ -60,5 +60,17 @@ Action: Send a request to post an image using the example code from this site: h
 Observation: 403 error. Likey a authorization process I have missed.
 
 Conclusion: I am done for.
+
+### W3C HTML Validation
+Observation: Many errors, several were fundenmental...
+
+Action: Fix errors
+
+### Jigsaw CSS Validation
+Observation: No errors. Very little css to begin with...
+
+### jshint JS validation
+Observation: Unable to deduce anything. Maybe jshint does not recognise jQuery?
+
 ## Credits
 Chunk of code from leap of faith: https://apidocs.imgur.com/#c85c9dfc-7487-4de2-9ecd-66f727cf3139
