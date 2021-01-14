@@ -1,6 +1,6 @@
 # Assignment-2
 ## Repository for Assignment 2 for Interactive Devlopment
-Github Page Link: (Insert link here)
+Github Page Link: https://leongyuxuan.github.io/Assignment2/
 ## Project Name
 ### Webpage based "app" utilising API to determine Anime and Episode from Image
 This web app is meant for fun, but could be used to help people determine the ~sauce~ anime from an image. 
